@@ -1,6 +1,7 @@
 class tools:
     @staticmethod
     def sort(taskList):
+        '''Cette méthode permet de trier une liste de taches, de la deadline la plus proche à la plus lointaine'''
         ordered = []
         lowestTask = taskList[0]
         lowestTaskIndex = 0
